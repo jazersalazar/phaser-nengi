@@ -1,0 +1,23 @@
+{
+  "name": "phaser-nengi",
+  "version": "0.0.0",
+  "description": "PhaserJS with Nengi demo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazersalazar/phaser-nengi.git"
+  },
+  "keywords": [
+    "PhaserJS",
+    "Nengi"
+  ],
+  "author": "Jazer Salazar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jazersalazar/phaser-nengi/issues"
+  },
+  "homepage": "https://github.com/jazersalazar/phaser-nengi#readme"
+}
