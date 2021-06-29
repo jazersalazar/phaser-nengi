@@ -19,5 +19,37 @@
   "bugs": {
     "url": "https://github.com/jazersalazar/phaser-nengi/issues"
   },
-  "homepage": "https://github.com/jazersalazar/phaser-nengi#readme"
+  "homepage": "https://github.com/jazersalazar/phaser-nengi#readme",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "env": {
+      "es6": true,
+      "browser": true
+    },
+    "rules": {
+      "brace-style": [
+        "error",
+        "stroustrup"
+      ],
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "no-unused-vars": [
+        "error"
+      ],
+      "no-var": [
+        "off"
+      ]
+    }
+  },
+  "eslintIgnore": [
+    "public",
+    "node_modules"
+  ]
 }
