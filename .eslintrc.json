@@ -29,6 +29,15 @@
       {
         "devDependencies": true
       }
+    ],
+    "no-plusplus": "off",
+    "no-cond-assign": [
+      "error",
+      "except-parens"
+    ],
+    "eslintIgnore": [
+      "node_modules",
+      "public"
     ]
   }
 }
